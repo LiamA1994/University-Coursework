@@ -1,0 +1,169 @@
+/* 
+    Document   : CSS
+    Created on : 06-Nov-2013, 10:23:36
+    Author     : cmplabbo
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+/*
+CSS for Bubble Under site
+*/
+body {
+  font-family: Verdana, Helvetica, Arial, sans-serif;
+  background-color: #666;
+  line-height: 125%;
+  padding: 15px;
+}
+
+
+
+h1, h2, h3 {
+  font-family: "Trebuchet MS", Helvetica, Arial, sans-serif;
+}
+
+
+h1 {
+  font-size: x-large;
+  background-color:#FF0000;
+  color: white;
+  padding: 1.5em 0 .6em .4em;
+}
+
+
+
+h2 {
+  color: navy;
+  font-size: 130%;
+  font-weight: normal;
+  padding-top: 15px;
+}
+
+h3 {
+    font-size: 0.9em;
+  color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: 1px solid #666;
+    display: block;
+    padding: 10px 0 10px 15px;
+}
+
+a:hover {
+    color: #900;
+    background-color: #FFF
+   }
+   
+   a:visited {
+       color: red}
+   
+ul {
+    margin: 0;
+    padding: 0;
+   }
+   
+li {
+  font-size: 0.9em;
+  list-style-type: none;
+}
+
+
+
+p {
+  font-size: 0.9em;
+  color: #000000;
+}
+
+
+#sitebranding {
+  font-family: Georgia, Times, serif;
+  background-color:#FF0000;
+  border-top: 3px solid #0033ff;
+  border-bottom: 3px solid #0033ff;
+}
+
+#banner {
+    width: 800px;
+    border: solid 4px #003;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #FFF;
+}
+
+#container {
+	width: 800px;
+	border: solid 4px #003;
+	padding: 15px;
+	margin: 0 auto;
+        background-color: #FFF;
+
+}
+
+#header {
+  margin-right: 20px;
+  padding: 2px;
+  margin-bottom: 2px;
+}
+
+
+#tagline h3 {
+  font-style: italic;
+  font-family: Georgia, Times, serif;
+  border-top: 3px solid;
+  border-bottom: 3px solid;
+  padding-top: .2em;
+  padding-bottom: .2em;
+  padding-left: .8em;
+}
+
+
+
+#navigation {
+  width: 180px;
+  border: 1px solid black;
+  background-color:#E9E9E9;
+  float: left;
+  
+}
+
+
+
+#content {
+	width: 550px;
+	padding: 10px;
+	border: 1px solid navy;
+	background:#FFF;
+	margin-left: 15px;
+	float: left;
+        
+}
+
+
+#navigation, #content {
+	margin-top: 10px;
+}
+
+
+.clrlft {
+	clear: left;
+}
+
+#content2 {
+	width: 760px;
+	padding: 10px;
+	border: 1px solid navy;
+	background:#FFF;
+	margin-left: 15px;
+	float: left;
+        
+}
+
+
+
+
+
